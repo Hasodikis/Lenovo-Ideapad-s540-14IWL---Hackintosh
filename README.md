@@ -29,7 +29,7 @@ Finaly, this whole project would not be possible whithout the help and patience 
 GUIDE for people with the same laptop:
 1. Create a bootable installation of Mac os x Catalina. 
 2. Mount EFI partition of the bootable media. 
-3. Replace EFI file with the downloaded. 
+3. Replace EFI file with my EFI. 
 4. Open config.plist with clover configurator, go to SMBIOS and press several times the Generate New button under serial number, save. 
 5. Boot from the bootable media, install, boot again, mount EFI partitionof the laptop  and replace EFI folder with my EFI and enjoy.
 6. You might want to change boot entries, since I have a manjaro linus installation on the second NVME.  
