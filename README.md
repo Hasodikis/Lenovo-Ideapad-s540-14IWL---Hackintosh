@@ -36,3 +36,10 @@ GUIDE for people with the same laptop:
 
 
 Update 16-3-2020: Latest EFI. Much better power consumption. Only 1 ACPI error at boot. Touchpad in polling mode until the kexts for GPIO are fixed. Everything else works. 
+
+
+DISCLAIMER:
+1. This project started for educational purposes. 
+2. The data, guides etc of this project are provided as they are. 
+3. I take no responsibility for any problem or damage to any person or property caused directly or indireclty because of the use of any data or guide etc of this project. 
+  
