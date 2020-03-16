@@ -31,8 +31,8 @@ GUIDE for people with the same laptop:
 2. Mount EFI partition of the bootable media. 
 3. Replace EFI file with my EFI. 
 4. Open config.plist with clover configurator, go to SMBIOS and press several times the Generate New button under serial number, save. 
-5. Boot from the bootable media, install, boot again, mount EFI partitionof the laptop  and replace EFI folder with my EFI and enjoy.
-6. You might want to change boot entries, since I have a manjaro linus installation on the second NVME.  
+5. Boot from the bootable media, install, boot again, mount EFI partition of the laptop, replace the EFI folder with my EFI, enjoy.
+6. You might want to change boot entries, since I have a manjaro linux installation on the second NVME.  
 
 
 Update 16-3-2020: Latest EFI. Much better power consumption. Only 1 ACPI error at boot. Touchpad in polling mode until the kexts for GPIO are fixed. Everything else works. 
