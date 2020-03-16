@@ -23,3 +23,5 @@ Bear in mind that I am novice and my coding skills are next to zero.
 Therefor you will probably find a lot of errors in the files and I will probably need your help way more than my abillity to answer to any questions.
 
 Finaly, this whole project would not be possible whithout the help and patience of marianopela (https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh). 
+
+Update 16-3-2020: Latest EFI. Much better power consumption. Only 1 ACPI error at boot. Touchpad in polling mode until the kexts for GPIO are fixed. Everything else works. 
