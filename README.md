@@ -30,13 +30,17 @@ GUIDE for people with the same laptop:
 1. Create a bootable installation of Mac os x Catalina. 
 2. Mount EFI partition of the bootable media. 
 3. Replace EFI file with my EFI. 
-4. Open config.plist with clover configurator, go to SMBIOS and press several times the Generate New button under serial number, save. 
+4. Open config.plist with clover configurator, go to SMBIOS and press several times the Generate New button under serial number, check validity, save. 
 5. Boot from the bootable media, install, boot again, mount EFI partition of the laptop, replace the EFI folder with my EFI, enjoy.
-6. You might want to change boot entries, since I have a manjaro linux installation on the second NVME.  
+6. You might want to change clover boot entries, since I have a manjaro linux installation on the second NVME.  
 
 
-Update 16-3-2020: Latest EFI. Much better power consumption. Only 1 ACPI error at boot. Touchpad in polling mode until the kexts for GPIO are fixed. Everything else works. 
+Update 16-3-2020: Latest EFI: 1) Much better power consumption.At idle in Intel Power Gadget PKG is at around 1.10 Watts,core is at around 0,30 Watts. Very good thermals. CPU idles at 0,8 Ghz (lower than the apple default of 1,2Ghz. Display reduces brightness much more tham default "AddPNLF".  Only 1 ACPI error at boot. Touchpad in polling mode until the kexts for GPIO are fixed. Everything else works. 
 
+Next milestones:
+1. Update kexts and drivers
+2. Get HDMI working
+3. Fix last ACPI error
 
 DISCLAIMER:
 1. This project started for educational purposes. 
