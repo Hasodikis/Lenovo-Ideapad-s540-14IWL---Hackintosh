@@ -35,7 +35,7 @@ GUIDE for people with the same laptop:
 6. You might want to change clover boot entries, since I have a manjaro linux installation on the second NVME.  
 
 
-Update 16-3-2020: Latest EFI: 1) Much better power consumption.At idle in Intel Power Gadget PKG is at around 1.10 Watts,core is at around 0,30 Watts. Very good thermals. CPU idles at 0,8 Ghz (lower than the apple default of 1,2Ghz. Display reduces brightness much more tham default "AddPNLF".  Only 1 ACPI error at boot. Touchpad in polling mode until the kexts for GPIO are fixed. Everything else works. 
+Update 16-3-2020: Latest EFI: 1) Much better power consumption.At idle in Intel Power Gadget PKG is at around 1.10 Watts, core is at around 0,30 Watts. Very good thermals. CPU idles at 0,8 Ghz (lower than the apple default of 1,2Ghz. Display reduces brightness much more than default "AddPNLF".  Only 1 ACPI error at boot. Touchpad in polling mode until the kexts for GPIO are fixed. Everything else works. 
 
 Next milestones:
 1. Update kexts and drivers
