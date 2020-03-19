@@ -30,7 +30,7 @@ GUIDE for people with the same laptop:
 1. Create a bootable installation of Mac os x Catalina. 
 2. Mount EFI partition of the bootable media. 
 3. Replace EFI file with my EFI. 
-4. Open config.plist with clover configurator, go to SMBIOS and press several times the Generate New button under serial number, check validity, save. 
+4. Open config.plist with clover configurator, go to SMBIOS and press several times the Generate New button under serial number, check validity, save. Create new SMUUID. At System Parameters create new Custom UUID. Save changes. 
 5. Boot from the bootable media, install, boot again, mount EFI partition of the laptop, replace the EFI folder with my EFI, enjoy.
 6. You might want to change clover boot entries, since I have a manjaro linux installation on the second NVME.  
 
