@@ -12,7 +12,7 @@ fingerprint sensor.
 
 It is still a work in progress but so far.... 
 everything works except of 
-1. firgerprint sensor (which will never work) 
+1. firgerprint sensor (which will never work). You can disable it the easy way by adding to boot arguments in config.plist the following (uia_exclude=HS07;) minus the brackets.
 2. HDMI which is in progress. 
 3. Wifi - bluetooth, since I haven' t received the replacement card yet.
 
