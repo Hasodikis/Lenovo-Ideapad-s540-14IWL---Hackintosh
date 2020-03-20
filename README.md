@@ -43,6 +43,9 @@ HDMI WORKS!!!!
 No HDMI sound yet ....... 
 Slighlty better power consumption. Working on solving ACPI errors when booting with HWPEnable and no Plugintype and cpufirend kexts.
 
+UPDATE 20-3-2020:
+Final ACPI Error (MCHC) corrected (thanks to ... Marianopela .... again!!!!)
+
 Next milestones:
 1. Update kexts and drivers
 2. Get HDMI working (DONE)
