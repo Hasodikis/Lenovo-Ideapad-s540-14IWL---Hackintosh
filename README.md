@@ -47,9 +47,11 @@ UPDATE 20-3-2020:
 Final ACPI Error (MCHC) corrected (thanks to ... Marianopela .... again!!!!)
 
 Next milestones:
-1. Update kexts and drivers
+1. Update kexts and drivers (DONE)
 2. Get HDMI working (DONE)
-3. Fix last ACPI error
+3. Fix last ACPI error (DONE)
+4. Fix HDMI sound
+5. Fix mute button 
 
 DISCLAIMER:
 1. This project started for educational purposes. 
