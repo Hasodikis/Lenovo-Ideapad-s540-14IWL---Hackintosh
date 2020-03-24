@@ -46,11 +46,16 @@ Slighlty better power consumption. Working on solving ACPI errors when booting w
 UPDATE 20-3-2020:
 Final ACPI Error (MCHC) corrected (thanks to ... Marianopela .... again!!!!)
 
+UPDATE 24-3-2020:
+HDMI AUDIO WORKS. Also HDMI is smoother...
+There is only one problem .... everything has a bit of a yellow tint !!!!!!
+Untill this is solved, it can be corrected by choosing a different display profile and only the login screen will be a bit yellowish......
+
 Next milestones:
 1. Update kexts and drivers (DONE)
 2. Get HDMI working (DONE)
 3. Fix last ACPI error (DONE)
-4. Fix HDMI sound
+4. Fix HDMI sound (DONE)
 5. Fix mute button 
 
 DISCLAIMER:
