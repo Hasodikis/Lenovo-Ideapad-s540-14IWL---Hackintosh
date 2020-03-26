@@ -35,28 +35,31 @@ GUIDE for people with the same laptop:
 6. You might want to change clover boot entries, since I have a manjaro linux installation on the second NVME.  
 
 
-UPDATE 16-3-2020: 
+# UPDATE 16-3-2020: 
 Latest EFI: 1) Much better power consumption.At idle in Intel Power Gadget PKG is at around 1.10 Watts, core is at around 0,30 Watts. Very good thermals. CPU idles at 0,8 Ghz (lower than the apple default of 1,2Ghz. Display reduces brightness much more than default "AddPNLF".  Only 1 ACPI error at boot. Touchpad in polling mode until the kexts for GPIO are fixed. Everything else works. 
 
-UPDATE 19-3-2020:
+# UPDATE 19-3-2020:
 HDMI WORKS!!!!
 No HDMI sound yet ....... 
 Slighlty better power consumption. Working on solving ACPI errors when booting with HWPEnable and no Plugintype and cpufirend kexts.
 
-UPDATE 20-3-2020:
+# UPDATE 20-3-2020:
 Final ACPI Error (MCHC) corrected (thanks to ... Marianopela .... again!!!!)
 
-UPDATE 24-3-2020:
-HDMI AUDIO WORKS. Also HDMI is smoother...
+# UPDATE 24-3-2020:
+HDMI AUDIO WORKS. 
+Also initialization of HDMI is smoother...
 There is only one problem .... everything has a bit of a yellow tint !!!!!!
-Untill this is solved, it can be corrected by choosing a different display profile and only the login screen will be a bit yellowish......
+Untill this is solved, it can be corrected by choosing a different display profile and only the login screen will be a bit yellowish.
+Slightly better power consumption. 
 
-Next milestones:
+# Next milestones:
 1. Update kexts and drivers (DONE)
 2. Get HDMI working (DONE)
 3. Fix last ACPI error (DONE)
 4. Fix HDMI sound (DONE)
-5. Fix mute button 
+5. Fix yellow tint (needs framebuffer repatching.....)
+6. Solve GPIO bug when using VoodooI2C in pinning mode 
 
 DISCLAIMER:
 1. This project started for educational purposes. 
