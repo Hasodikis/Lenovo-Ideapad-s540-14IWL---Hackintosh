@@ -13,8 +13,8 @@ fingerprint sensor.
 It is still a work in progress but so far.... 
 everything works except of 
 1. firgerprint sensor (which will never work). You can disable it the easy way by adding to boot arguments in config.plist the following (uia_exclude=HS07;) minus the brackets.
-2. HDMI which is in progress. 
-3. Wifi - bluetooth, since I haven' t received the replacement card yet.
+2. HDMI which is in progress.  (DONE with a bit of yellow tint, solved for the time being by changig display profile)
+3. Wifi - bluetooth, since I haven' t received the replacement card yet. (Done with DW1820A wifi and bloutooth are working)
 
 However, the most serious problem so far is the touchpad(VoodooI2C), which works perfectly well apart of a strange input issue.
 Saddly this problem consumes a lot of power due to cpu usage (for the issue see here: https://github.com/alexandred/VoodooI2C/issues/250)  
@@ -52,6 +52,15 @@ Also initialization of HDMI is smoother...
 There is only one problem .... everything has a bit of a yellow tint !!!!!!
 Untill this is solved, it can be corrected by choosing a different display profile and only the login screen will be a bit yellowish.
 Slightly better power consumption. 
+
+# UPDATE 7-4-2020
+Updated clover to r5018
+Updated kexts
+System updated to 10.15.4
+Installed DW1820a (wifi and bluetooth working normally)
+Updated CPUFriend and created a new CPU Friend data provider kexts with low battery consumption in mind
+With wifi and bluetooth power consumption is much higher, I am working on it. 
+As always crete your own S/N, SmUUID and Custom UUID
 
 # Next milestones:
 1. Update kexts and drivers (DONE)
