@@ -60,7 +60,7 @@ System updated to 10.15.4
 Installed DW1820a (wifi and bluetooth working normally)
 Updated CPUFriend and created a new CPU Friend data provider kexts with low battery consumption in mind
 With wifi and bluetooth power consumption is much higher, I am working on it. 
-As always crete your own S/N, SmUUID and Custom UUID
+As always create your own S/N, SmUUID and Custom UUID
 
 # Next milestones:
 1. Update kexts and drivers (DONE)
