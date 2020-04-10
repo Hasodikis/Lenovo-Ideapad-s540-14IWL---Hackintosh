@@ -32,14 +32,21 @@ GUIDE for people with the same laptop:
 
 # BE VERY CAREFULL, THIS PART IS IMPORTANT
 Credit goes to Diliansky (https://github.com/daliansky) https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md
-I am not responsible if yoy mess it up!!!!!!!
+I am not responsible if you mess it up!!!!!!!
 Power off the laptop. Power button to turn on → F2 to enter the normal BIOS → Power button to turn off → then press the following keys in sequence
+
          F1 → 1 → Q → A → Z
+         
          F2 → 2 → W → S → X
+         
          F3 → 3 → E → D → C
+         
          F4 → 4 → R → F → V
+         
          F5 → 5 → T → G → B
+         
          F6 → 6 → Y → H → N
+         
      Turn on the power button → F2 enters the hidden BIOS (if unsuccessful, please speed up your hand and try again).
      Then go to 
 # Advanced → Power & Performance → CPU-Power Management Control → CPU Lock Configuration → CFG Lock → Disabled
