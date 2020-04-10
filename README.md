@@ -6,15 +6,14 @@ IPS Panel 14 "
 RAM 8 GB DDR4
 Intel UHD Graphics 620
 SSD 256 GB (and a second added by me) 
+DW1820a wifi and bluetooth
 Card Reader
 Bluetooth, HDMI, USB 3.1, USB-C, Wi-Fi
 fingerprint sensor.
 
 It is still a work in progress but so far.... 
-everything works except of 
-1. firgerprint sensor (which will never work). You can disable it the easy way by adding to boot arguments in config.plist the following (uia_exclude=HS07;) minus the brackets.
-2. HDMI which is in progress.  (DONE with a bit of yellow tint, solved for the time being by changig display profile)
-3. Wifi - bluetooth, since I haven' t received the replacement card yet. (Done with DW1820A wifi and bloutooth are working)
+1. Everything works except of firgerprint sensor (which will never work). You can disable it the easy way by adding to boot arguments in config.plist the following (uia_exclude=HS07;) minus the brackets.
+2. HDMI is in progress.  (It works with sound, but there is a bit of yellow tint on thw laptop display that is solved for the time being by changing display profile)
 
 However, the most serious problem so far is the touchpad(VoodooI2C), which works perfectly well apart of a strange input issue.
 Saddly this problem consumes a lot of power due to cpu usage (for the issue see here: https://github.com/alexandred/VoodooI2C/issues/250)  
@@ -47,9 +46,11 @@ Power off the laptop. Power button to turn on → F2 to enter the normal BIOS �
          
          F6 → 6 → Y → H → N
          
-     Turn on the power button → F2 enters the hidden BIOS (if unsuccessful, please speed up your hand and try again).
-     Then go to 
+
+ Turn on the power button → F2 enters the hidden BIOS (if unsuccessful, please speed up your hand and try again).
+Then go to 
 # Advanced → Power & Performance → CPU-Power Management Control → CPU Lock Configuration → CFG Lock → Disabled
+
 As always then 
 1. Create a bootable installation of Mac os x Catalina. 
 2. Mount EFI partition of the bootable media. 
