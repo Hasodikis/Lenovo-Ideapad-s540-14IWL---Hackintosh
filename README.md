@@ -87,20 +87,22 @@ Updated CPUFriend and created a new CPU Friend data provider kexts with low batt
 With wifi and bluetooth power consumption is much higher, I am working on it. 
 As always create your own S/N, SmUUID and Custom UUID
 
-# UPDATE 10-4-2020 (Importand!!!!! From now on bulids wil be based on an unlocked CFG so please, if you don't have one modify config.plist settings.)
-Updated kexts. 
+# UPDATE 10-4-2020 
+(Importand!!!!! From now on builds will be based on an unlocked CFG so please, if you don't have one modify config.plist settings.)
+Updated kexts 
 changed config.plist settings for unlocked CFG  (see above for method).
 Included a SSDT-PLUD for cpu 
-Recreated CPUFriend Data Provider kext.
+Recreated CPUFriend Data Provider kext
+Installed 10.15.4 supplemental update with no problem
 # Options
-In my EFI you will find a SSDT-PLUG.aml
+In my EFI you will find an SSDT-PLUG.aml
 # 1. CpuFriend kexts in kexts folder and SSDT-PLUG.aml in ACPI/Patched folder,  with plugintype1=false in config.plist
 # 2. CpuFriend kexts in kexts folder, NO SSDT-PLUG.aml in ACPI/Patched folder,  with plugintype1=true in config.plist
-(these two options give same results. CPU base freq at 600Mhz,idle freq at 600mhz core watts 0,30 at idle, PKG watts 1.70 at idle, cpu utilazation at 4,70 % at idle. 
+(these two options give the same results. CPU base freq at 600Mhz, idle freq at 600mhz, core watts 0,30 at idle, PKG watts 1.70 at idle, cpu utilazation at 4,70 % and a bit more at idle. 
 # 3.CpuFriend kexts in kexts folder, NO SSDT-PLUG.aml in ACPI/Patched folder and plugintype1=false in config.plist
-(these option has CPU base freq at 600Mhz, but idle req freq is never bellow 1,2Gmhz.  Core watts 0,30 and bellow at times at idle, PKG watts 1.70 at idle, cpu utilization is lees than 3 % at idle
+(these option has CPU base freq at 600Mhz, but idle req freq is never bellow 1,2Gmhz.  Core watts 0,30 and bellow at times at idle, PKG watts 1.70 at idle, cpu utilization is less than 3 % at idle
 
-choose what you like.
+You can choose which option you like.
 
 # Next milestones:
 1. Update kexts and drivers (DONE)
