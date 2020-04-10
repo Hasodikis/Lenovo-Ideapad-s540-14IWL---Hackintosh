@@ -95,10 +95,10 @@ Recreated CPUFriend Data Provider kext
 Installed 10.15.4 supplemental update with no problem
 # Options
 In my EFI you will find an SSDT-PLUG.aml
-# 1. CpuFriend kexts in kexts folder and SSDT-PLUG.aml in ACPI/Patched folder,  with plugintype1=false in config.plist
-# 2. CpuFriend kexts in kexts folder, NO SSDT-PLUG.aml in ACPI/Patched folder,  with plugintype1=true in config.plist
+1. CpuFriend kexts in kexts folder and SSDT-PLUG.aml in ACPI/Patched folder,  with plugintype1=false in config.plist
+2. CpuFriend kexts in kexts folder, NO SSDT-PLUG.aml in ACPI/Patched folder,  with plugintype1=true in config.plist
 (these two options give the same results. CPU base freq at 600Mhz, idle freq at 600mhz, core watts 0,30 at idle, PKG watts 1.70 at idle, cpu utilazation at 4,70 % and a bit more at idle. 
-# 3.CpuFriend kexts in kexts folder, NO SSDT-PLUG.aml in ACPI/Patched folder and plugintype1=false in config.plist
+3.CpuFriend kexts in kexts folder, NO SSDT-PLUG.aml in ACPI/Patched folder and plugintype1=false in config.plist
 (this option has CPU base freq at 600Mhz, but idle req freq is never bellow 1,2Gmhz.  Core watts 0,30 and bellow at times at idle, PKG watts 1.70 at idle, cpu utilization is less than 3 % at idle
 
 You can choose which option you like.
