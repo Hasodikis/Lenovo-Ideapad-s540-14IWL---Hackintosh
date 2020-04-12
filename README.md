@@ -103,6 +103,10 @@ In my EFI you will find an SSDT-PLUG.aml
 
 You can choose which option you like.
 
+# UPDATE 12-4-2020
+Updated kexts 
+F1 now truly mutes sound (credits: lietxia https://github.com/lietxia for the patched AppleALC)
+
 # Next milestones:
 1. Update kexts and drivers (DONE)
 2. Get HDMI working (DONE)
