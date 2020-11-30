@@ -1,4 +1,4 @@
-# This is about an installation of Mac Os X on a Lenovo Ideapad s540-14IWL. 
+# This is about an installation of Mac Os X (Catalina with Clover and BigSur with OpenCore) on a Lenovo Ideapad s540-14IWL. 
 The specs of the machine are as follows:
 (CPU) Intel Core i5-8265U
 IPS Panel 14 "
@@ -107,13 +107,12 @@ You can choose which option you like.
 Updated kexts 
 F1 now truly mutes sound (credits: lietxia https://github.com/lietxia for the patched AppleALC)
 
-# Next milestones:
-1. Update kexts and drivers (DONE)
-2. Get HDMI working (DONE)
-3. Fix last ACPI error (DONE)
-4. Fix HDMI sound (DONE)
-5. Fix yellow tint (needs framebuffer repatching.....)
-6. Solve GPIO bug when using VoodooI2C in pinning mode 
+# MAJOR UPDATE 30-11-2020
+Transition to OpenCore and installation of MacOs 11 BigSur. 
+I attach the EFI. In config.plist, I have removed all platform data, so you have to fill in your own.
+Make an installation USB for BigSur, mount its EFI partition, copy my EFI file on the EFI partition of your USB, install, copy my EFI file on the EFI partition of your HD. Done. 
+Up to now everything works. 
+# As always, this whole project would not be possible whithout the help and patience of marianopela (https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh)
 
 DISCLAIMER:
 1. This project started for educational purposes. 
