@@ -24,7 +24,7 @@ GUIDE for people with the same laptop:
 Credit goes to Diliansky (https://github.com/daliansky) https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md
 I am not responsible if you mess it up!!!!!!!
 
-Power off the laptop. Power button to turn on → F2 to enter the normal BIOS → Power button to turn off → then press the following keys in sequence
+Enter BIOS->desable OneKeyBattery -> save and exit. Power off the laptop. Power button to turn on → F2 to enter the normal BIOS → Power button to turn off → then press the following keys in sequence
 
          F1 → 1 → Q → A → Z
          
