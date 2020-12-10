@@ -53,7 +53,7 @@ Then go to
 # Advanced → Power & Performance → CPU-Power Management Control → CPU Lock Configuration → CFG Lock → Disabled
 save and exit 
 
-# As always then 
+# THEN: 
 1. Create a bootable installation of Mac os 11 Big Sur. 
 2. Mount EFI partition of the bootable media. 
 3. Replace EFI file with my EFI. 
@@ -63,7 +63,7 @@ save and exit
 I have chosen to work with CPUFried kexts since I get the best power consumption with them. 
 Even better results can be achieved with voltageshilft. 
 
-# As always, this whole project would not be possible whithout the help and patience of marianopela (https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh)
+# This whole project would not be possible whithout the help and patience of marianopela (https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh)
 
 DISCLAIMER:
 1. This project started for educational purposes. 
