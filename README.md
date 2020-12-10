@@ -1,5 +1,5 @@
-# This is about an installation of Mac Os X (Catalina with Clover and BigSur with OpenCore) on a Lenovo Ideapad s540-14IWL. 
-The specs of the machine are as follows:
+# This guides the installation of Mac Os  (X Catalina with Clover and 11 BigSur with OpenCore) on a Lenovo Ideapad s540-14IWL. 
+The specs of the machine are:
 
 (CPU) Intel Core i5-8265U
 
