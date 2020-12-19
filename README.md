@@ -24,6 +24,7 @@ Fingerprint sensor.
 #SINCE DECEMBER 2020, this guide will continue with MacOS 11 Big Sur and OpenCore. However I will keep the clover EFI for Catalina for people who need it. 
 
 1. Everything works except of fingerprint sensor (which will never work). You can disable it the easy way by adding to boot arguments in config.plist the following (uia_exclude=HS07;) minus the brackets.
+2. If you need HDMI at boot or after wake up without unpluggin - pluggin the cable, add to boot arguments "igfxonln=1" (without brackets). System will be a bit chopy for a few seconds but it works normally afterwards.  
 
 This whole project would not be possible whithout the help and patience of marianopela (https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh) 
 
