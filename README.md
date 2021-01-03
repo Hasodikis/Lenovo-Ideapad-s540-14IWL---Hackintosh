@@ -66,9 +66,13 @@ Even better results can be achieved with voltageshilft.
 # This whole project would not be possible whithout the help and patience of marianopela (https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh)
 
 # UPDATE 3-1-2020 
+
 I am uploading a "beta" EFI for testing best power consumption. 
+
 This is tuned to put brakes (in a way) to the system so that I can maximize battery time and run the CPU cooler and ultra quiet. 
+
 Ofcourse it affetcs performance. 
+
 It is used with voltageshift (command: ./voltageshift offset -120 -50 -100 0 0 0 0 0 1 20 30 0 60  STILL WORKING ON THIS) and with BIOS selection QUIET)
 
 DISCLAIMER:
