@@ -71,7 +71,7 @@ I am uploading a "beta" EFI for testing best power consumption.
 
 This is tuned to put brakes (in a way) to the system so that I can maximize battery time and run the CPU cooler and ultra quiet. 
 
-Ofcourse it affetcs performance. 
+Ofcourse it affects performance. 
 
 It is used with voltageshift (command: ./voltageshift offset -120 -50 -100 0 0 0 0 0 1 20 30 0 60  STILL WORKING ON THIS) and with BIOS selection QUIET)
 
