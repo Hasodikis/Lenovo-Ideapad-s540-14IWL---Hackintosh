@@ -21,7 +21,7 @@ Bluetooth, HDMI, USB 3.1, USB-C, Wi-Fi
 
 Fingerprint sensor.
 
-#SINCE DECEMBER 2020, this guide will continue with MacOS 11 Big Sur and OpenCore. However I will keep the clover EFI for Catalina for people who need it. 
+# SINCE DECEMBER 2020, this guide will continue with MacOS 11 Big Sur and OpenCore. However I will keep the clover EFI for Catalina for people who need it. 
 
 1. Everything works except of fingerprint sensor (which will never work). You can disable it the easy way by adding to boot arguments in config.plist the following (uia_exclude=HS07;) minus the brackets.
 2. If you need HDMI at boot or after wake up without unpluggin - pluggin the cable, add to boot arguments "igfxonln=1" (without brackets). System will be a bit chopy for a few seconds but it works normally afterwards.  
@@ -65,6 +65,8 @@ Even better results can be achieved with voltageshilft.
 
 # This whole project would not be possible whithout the help and patience of marianopela (https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh)
 
+
+
 # UPDATE 3-1-2020 
 
 I am uploading a "beta" EFI for testing best power consumption. 
@@ -75,7 +77,10 @@ Ofcourse it affects performance.
 
 It is used with voltageshift (command: ./voltageshift offset -120 -50 -100 0 0 0 0 0 1 20 30 0 60  STILL WORKING ON THIS) and with BIOS selection QUIET)
 
-DISCLAIMER:
+
+
+
+# DISCLAIMER:
 1. This project started for educational purposes. 
 2. The data, guides etc of this project are provided as they are. 
 3. I take no responsibility for any problem or damage to any person or property caused directly or indireclty because of the use of any data or guide etc of this project. 
