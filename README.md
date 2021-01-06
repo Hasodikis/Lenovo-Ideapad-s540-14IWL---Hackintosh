@@ -81,7 +81,7 @@ Complete rewritte of EFI (more of a complete copy) based on the excellent work o
 
 Best power consumption so far. 
 
-The minor ACPI POWS error when pluggin/unplugginthw power cord remains but it s seems to be of no consequencies.... Still working on it. 
+The minor ACPI POWS error when pluggin/unpluggin the power cord remains but it s seems to be of no consequencies.... Still working on it. 
 
 Everything that is to work.. just works. 
 
