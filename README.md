@@ -63,9 +63,7 @@ save and exit
 I have chosen to work with CPUFried kexts since I get the best power consumption with them. 
 Even better results can be achieved with voltageshilft. 
 
-# This whole project would not be possible whithout the help and patience of marianopela (https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh)
-
-
+# This whole project would not be possible whithout the help and patience of: marianopela (https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh) and lietxia (https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh)
 
 # UPDATE 3-1-2020 
 
@@ -77,8 +75,17 @@ Ofcourse it affects performance.
 
 It is used with voltageshift (command: ./voltageshift offset -120 -50 -100 0 0 0 0 0 1 20 30 0 60  STILL WORKING ON THIS) and with BIOS selection QUIET)
 
+# UPDATE 6-1-2021
 
+Complete rewritte of EFI (more of a complete copy) based on the excellent work of lietxia (https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh).
 
+Best power consumption so far. 
+
+The minor ACPI POWS error when pluggin/unplugginthw power cord remains but it s seems to be of no consequencies.... Still working on it. 
+
+Everything that is to work.. just works. 
+
+ENJOY!!!!!
 
 # DISCLAIMER:
 1. This project started for educational purposes. 
