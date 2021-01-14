@@ -1,4 +1,5 @@
-# This guides the installation of Mac Os  (X Catalina with Clover and 11 BigSur with OpenCore) on a Lenovo Ideapad s540-14IWL. 
+# This is a "guide" (well sort of) for the installation of macos (X Catalina with Clover and 11 BigSur with OpenCore) on a Lenovo Ideapad s540-14IWL. 
+
 The specs of the machine are:
 
 (CPU) Intel Core i5-8265U
@@ -21,7 +22,7 @@ Bluetooth, HDMI, USB 3.1, USB-C, Wi-Fi
 
 Fingerprint sensor.
 
-# SINCE DECEMBER 2020, this guide will continue with MacOS 11 Big Sur and OpenCore. However I will keep the clover EFI for Catalina for people who need it. 
+# From DECEMBER 2020 and onwards, this guide will continue with macos 11 Big Sur and OpenCore. However I will keep the clover EFI for Catalina for people who need it. 
 
 1. Everything works except of fingerprint sensor (which will never work). You can disable it the easy way by adding to boot arguments in config.plist the following (uia_exclude=HS07;) minus the brackets.
 2. If you need HDMI at boot or after wake up without unpluggin - pluggin the cable, add to boot arguments "igfxonln=1" (without brackets). System will be a bit chopy for a few seconds but it works normally afterwards.  
@@ -63,16 +64,6 @@ save and exit
 I have chosen to work with CPUFried kexts since I get the best power consumption with them. 
 Even better results can be achieved with voltageshilft. 
 
-# UPDATE 3-1-2020 
-
-I am uploading a "beta" EFI for testing best power consumption. 
-
-This is tuned to put brakes (in a way) to the system so that I can maximize battery time and run the CPU cooler and ultra quiet. 
-
-Ofcourse it affects performance. 
-
-It is used with voltageshift (command: ./voltageshift offset -120 -50 -100 0 0 0 0 0 1 20 30 0 60  STILL WORKING ON THIS) and with BIOS selection QUIET)
-
 # UPDATE 6-1-2021
 
 Complete rewritte of EFI (more of a complete copy) based on the excellent work of lietxia (https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh).
@@ -94,6 +85,8 @@ By far the most stable and the best in power consumption.
 With touchpad in polling mode, CPU at idle is at around 4,5% and even less, PKG is at aaround 1,5 -1,6 Watts, Core is at around 0,20 Watts!!!!!!   
 
 Only thing left is make the touchpad work in pinning mode, which is very very difficult...... 
+
+Voltageshift settings: ./voltageshift offset -120 -50 -100 0 0 0 1 20 30 0 60
 
 As always .... fill in platform info .....
 
