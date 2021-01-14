@@ -82,7 +82,7 @@ General clean up of the EFI. Several Improvements.
 
 By far the most stable and the best in power consumption. 
 
-With touchpad in polling mode, CPU at idle is at around 4,5% and even less, PKG is at aaround 1,5 -1,6 Watts, Core is at around 0,20 Watts!!!!!!   
+With touchpad in polling mode, CPU at idle is at around 4,5% and even less, PKG is at around 1,5 -1,6 Watts, Core is at around 0,20 Watts!!!!!!   
 
 Only thing left is make the touchpad work in pinning mode, which is very very difficult...... 
 
