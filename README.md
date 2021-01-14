@@ -30,7 +30,7 @@ Fingerprint sensor.
 # Bear in mind that this guide and its settings are based on a disabled CFG lock. There are details below on how to access hidden bios settings.
 
 # BE VERY CAREFULL, THIS PART IS IMPORTANT
-Credit goes to Diliansky (https://github.com/daliansky) https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md
+Credit goes to Daliansky (https://github.com/daliansky) https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md
 I am not responsible if you mess it up!!!!!!!
 
 Enter BIOS->disable OneKeyBattery -> save and exit. Power off the laptop. Power button to turn on → F2 to enter the normal BIOS → Power button to turn off → then press, moving fast, the following keys in sequence
@@ -63,8 +63,6 @@ save and exit
 I have chosen to work with CPUFried kexts since I get the best power consumption with them. 
 Even better results can be achieved with voltageshilft. 
 
-# This whole project would not be possible whithout the help and patience of: marianopela (https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh) and lietxia (https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh)
-
 # UPDATE 3-1-2020 
 
 I am uploading a "beta" EFI for testing best power consumption. 
@@ -86,6 +84,23 @@ The minor ACPI POWS error when pluggin/unpluggin the power cord remains but it s
 Everything that is to work.. just works. 
 
 ENJOY!!!!!
+
+# UPDATE 14-1-2021
+
+General clean up of the EFI. Several Improvements.  
+
+By far the most stable and the best in power consumption. 
+
+With touchpad in polling mode, CPU at idle is at around 4,5% and even less, PKG is at aaround 1,5 -1,6 Watts, Core is at around 0,20 Watts!!!!!!   
+
+Only thing left is make the touchpad work in pinning mode, which is very very difficult...... 
+
+As always .... fill in platform info .....
+
+Enjoy!!!!
+
+# This whole project would not be possible whithout the help and patience of: marianopela (https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh) and lietxia (https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh)
+
 
 # DISCLAIMER:
 1. This project started for educational purposes. 
