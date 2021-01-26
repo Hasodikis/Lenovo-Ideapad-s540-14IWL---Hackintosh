@@ -23,7 +23,7 @@ The specs of the machine are:
 ## Bear in mind that this guide and its settings are based on a disabled CFG lock. There are details below on how to access hidden bios settings.
 
 # BE VERY CAREFULL, THIS PART IS IMPORTANT
-Credit goes to [@Daliansky](https://github.com/daliansky) https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md
+Credit goes to @Daliansky https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md
 I am not responsible if you mess it up!!!!!!!
 
 Enter BIOS → disable OneKeyBattery → save and exit. Poweroff the laptop. Power button to turn on → F2 to enter the normal BIOS → Power button to turn off → then press, moving fast, the following keys in sequence
@@ -86,7 +86,7 @@ Enjoy!!!!
 
 ## UPDATE 26-1-2021
 
-Final touchpad fix for the latest bios version (2.09), thanks to [@Lorys89](https://github.com/Lorys89). See issue [#2](https://github.com/Hasodikis/Lenovo-Ideapad-s540-14IWL---Hackintosh/issues/2)
+Final touchpad fix for the latest bios version (2.09), thanks to @Lorys89. See issue [#2](https://github.com/Hasodikis/Lenovo-Ideapad-s540-14IWL---Hackintosh/issues/2)
 
 Enjoy!
 
