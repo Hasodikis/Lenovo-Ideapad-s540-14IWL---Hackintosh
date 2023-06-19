@@ -58,7 +58,9 @@ Even better results can be achieved with voltageshilft.
 ## NOTES ON VENTURA 13.4
 1. There is a bug in 13.4 that messes up backlight after boot. After a boot (randomnly but it happens a lot, the screen will remain black for about to -3 minutes and then the loggin screen will come up. Just wait a bit. This bug is not present in 13.5 beta do it will probably be fixed. 
 2. In order for the bluetooth to work I had to add this patch in config.plist --> NVRAM
-                                    <key>bluetoothExternalDongleFailed</key>
+   
+   
+				<key>bluetoothExternalDongleFailed</key>
 				<data>
 				AA==
 				</data>
@@ -67,7 +69,8 @@ Even better results can be achieved with voltageshilft.
 				AAAAAAAAAAAAAAAAAAA=
 				</data>
 
-I dont know if 13.5 braeks things again. 
+
+I dont know if 13.5 breaks things again. 
 
 ## This whole project would not be possible without the help and patience of: [marianopela](https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh), [lietxia](https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh) and [Lorys89](https://github.com/Lorys89)
 
