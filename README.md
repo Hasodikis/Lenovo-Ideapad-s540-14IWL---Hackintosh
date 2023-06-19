@@ -1,4 +1,6 @@
-# This is a "guide" (well sort of) for the installation of macos Ventura (as of June 2023 and onwards) on a Lenovo Ideapad s540-14IWL. 
+# This is a "guide" (well sort of) for the installation of 
+# macos Ventura (as of June 2023 and onwards) 
+# on a Lenovo Ideapad s540-14IWL. 
 
 The specs of the machine are:
 
@@ -46,7 +48,7 @@ Then go to
 save and exit 
 
 ## THEN: 
-1. Create a bootable installation of Mac os 11 Big Sur. 
+1. Create a bootable installation of MacOs 13 Ventura. 
 2. Mount EFI partition of the bootable media. 
 3. Replace EFI file with my EFI. 
 4.Open config.plist and insert appropriate platform info (serial, UUID etc).
