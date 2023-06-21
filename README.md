@@ -17,7 +17,9 @@ The specs of the machine are:
 | Network Card | Intel (replaced with DW1820A) |
 
 
-1. Everything works except of fingerprint sensor (which will never work). You can disable it the easy way by adding to boot arguments in config.plist the following (uia_exclude=HS07;) minus the brackets.
+1. Everything works except of: 
+a) fingerprint sensor (which will never work). You can disable it the easy way by adding to boot arguments in config.plist the following (uia_exclude=HS07;) minus the brackets.
+b) The sd card reader, which under the new EFI does not work. I tried several combinations but thei all failed. I will keep on trying. 
 2. If you need HDMI at boot or after wake up without unpluggin - pluggin the cable, add to boot arguments "igfxonln=1" (without brackets). System will be a bit chopy for a few seconds but it works normally afterwards.  
 
 
