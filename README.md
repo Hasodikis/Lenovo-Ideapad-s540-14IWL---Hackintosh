@@ -12,7 +12,7 @@ The specs of the machine are:
 | Graphics Card | Intel UHD Graphics 620 |
 | Monitor | 14" IPS 1920x1080 |
 | Sound Card | layout-id 15 |
-| Card reader | working |
+| Card reader | not working in Ventura |
 | Finger print reader | not working (will never) |
 | Network Card | Intel (replaced with DW1820A) |
 
