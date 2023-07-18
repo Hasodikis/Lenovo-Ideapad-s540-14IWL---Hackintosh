@@ -78,6 +78,8 @@ Even better results can be achieved with voltageshilft.
 
 I dont know if 13.5 breaks things again. So be carefull before you update.
 
+## 3. If you have updated the bios and want to use VoltageShift, you must enter the advanced bios menu and enable overclocking (its somewhere there, in the CPU/Power menu). If you dont that first, VoltageShift will not be able to offset the voltage. It took me many hours to find that out.  
+
 ## This whole project would not be possible without the help and patience of: [marianopela](https://github.com/marianopela/Lenovo-Ideapad-S540-14IML-Hackintosh), [lietxia](https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh) and [Lorys89](https://github.com/Lorys89)
 
 # DISCLAIMER:
